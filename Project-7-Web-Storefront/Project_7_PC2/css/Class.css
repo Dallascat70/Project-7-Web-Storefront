@@ -1,3 +1,7 @@
+fieldset {
+    background-color: rgb(250, 250, 250);
+}
+
 fieldset.title {
   text-align: center;
   width: fit-content;
@@ -32,6 +36,7 @@ a {
   margin-left: 10px;
   border-right: solid 1px black;
   padding-right: 20px;
+  color: rgb(0, 0, 0);
 }
 
 #homeimagesright {
@@ -57,3 +62,9 @@ a {
 margin-left: 60%;
   width: 100px;
   align-self: center;
+}
+
+a.home {
+   color: rgb(0, 0, 0);
+  text-decoration: none;
+}
